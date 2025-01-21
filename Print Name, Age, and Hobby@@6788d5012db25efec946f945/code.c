@@ -5,8 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    char str[100],hobby[100];
+    char str[100];
     int age;
+    char hobby[100];
     scanf("%s %d %s",&str,&age,&hobby);
     printf("Name: %s\n Age: %d\n Hobby: %s", welcome());
     return 0;
