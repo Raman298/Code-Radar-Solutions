@@ -5,6 +5,6 @@ int main() {
     if(a>b)
     printf("True %d", a,b);
     else
-    printf("False %d"a,b);
+    printf("False %d",a,b);
     return 0;
 }
