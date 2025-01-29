@@ -7,6 +7,6 @@ int main() {
     else if (a=b&&b=c&&c!=a||a!=b&&b=c&&c=a||b!=c&&a=b&&a=c)
     printf("Isoscales");
     else
-    printf("Scalene")
+    printf("Scalene");
     return 0;
 }
