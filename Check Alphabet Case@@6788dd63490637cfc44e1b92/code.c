@@ -5,15 +5,15 @@ int main()
     scanf("%c,&ch");
     if(ch>='A' && ch<='Z')
     {
-        printf("Uppercase");
+        printf("Uppercase\n");
     }
     else if(ch>='a' && ch<='z')
     {
-        printf("Lowercase");
+        printf("Lowercase\n");
     }
     else
     {
-        printf("Not an alphabet");
+        printf("Not an alphabet\n");
     }
     return 0;
 }
