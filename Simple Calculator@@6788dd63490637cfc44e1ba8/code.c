@@ -12,9 +12,9 @@ int main() {
         break;
         case('/'):
         switch(b){
-            case 0:
+            case 0:printf("error")
             break;
-            default:printf(a/b);
+            default:printf("%d",a/b);
             break;
         }
         break;
