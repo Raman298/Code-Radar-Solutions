@@ -16,6 +16,5 @@ int main() {
         default:printf("Invalid Grade");
 
     }
-    printf("%s", welcome());
     return 0;
 }
