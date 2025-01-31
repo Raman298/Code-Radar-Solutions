@@ -20,6 +20,5 @@ int main() {
         default:
         printf("Invalid");
     }
-    printf("%s", welcome());
     return 0;
 }
