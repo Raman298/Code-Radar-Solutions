@@ -6,7 +6,7 @@ int main() {
     while(i<=n){
         sum+=i;
         i++;
-        printf("%d",sum)
     }
+    printf("%d",sum);
     return 0;
 }
