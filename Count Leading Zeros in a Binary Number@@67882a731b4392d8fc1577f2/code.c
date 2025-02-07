@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main() {
-    unsigned int num;
-    int count=0;
-    scanf("%d",&a);
-    a=a<<31;
-    count=0;
-    for(int i=31;i>=0;i--){
-        if((num&(1<<i))==0){
-        count++;}
-        else{
-            break;
-        }
+    int num,a,count;
+    scanf("%d",&num);
+    if(num==0){
+        printf("32");
     }
-    printf("%d",count);
-    return 0;
-}
+    a=1<<31;
+    while((num&a)==0){
+        count++;
+        a>>=1
+
+    }
+    
+    }
+    
