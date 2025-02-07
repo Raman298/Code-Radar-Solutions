@@ -8,9 +8,10 @@ int main() {
     a=1<<31;
     while((num&a)==0){
         count++;
-        a>>=1
+        a>>=1;
 
     }
-    
+    printf("%d",count);
+    return 0;
     }
     
