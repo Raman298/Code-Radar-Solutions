@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&num);
     if(num==0)
     printf("32");
-    while(num&1==0){
+    while((num&1)==0){
         count++;  
         num>>1;
     }
