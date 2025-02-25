@@ -3,7 +3,7 @@
 int main(){
     char ch;
     scanf("%c",&ch);
-    if(a<=ch<=z||A<=ch<=Z){
+    if('a'<=ch<='z'||'A'<=ch<='Z'){
         printf("consonent");
     }
     else if(ch='a','e','i','o','u'|'A','E','I','O','U'){
