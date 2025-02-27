@@ -28,6 +28,7 @@ int main(){
             }
 
         }
+        print("\n");
         }
         
     
