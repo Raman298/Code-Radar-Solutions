@@ -5,7 +5,12 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<n;i++){
         for(int j=1;j<=i;j++){
-            printf("* ",(2*n)-1);
+            if(j<=n-i){
+                printf(" ");
+            }
+            else{
+                printf("* ",(2*i)-1);
+            }
         }
         printf("\n");
     }
