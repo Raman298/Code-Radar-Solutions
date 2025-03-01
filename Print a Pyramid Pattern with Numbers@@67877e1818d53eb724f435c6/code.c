@@ -7,8 +7,9 @@ int main(){
         for(int z=1;z<=n-i;z++){
             printf(" ");
         }
-        for(int j=1;j<2*i-1;j++){
-                printf("%d",j);
+        int x=1;
+        for(int j=1;j<=2*i-1;j++){
+                printf("%d ",x++);
             }
         printf("\n");
         }
