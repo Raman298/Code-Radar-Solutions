@@ -11,6 +11,6 @@ int fabonacci(int n){
 int main(){
     int n;
     scanf("%d",n);
-    printf("%d",fabonacci(6));
+    printf("%d",fabonacci(n));
     return 0;
 }
