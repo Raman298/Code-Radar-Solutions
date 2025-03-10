@@ -10,7 +10,7 @@ int main(){
     }
     for(int i=0;i<n;i++)
     printf("%d\n",fibonacciSeries(i));
-    return 0;
+    //return 0;
 }
 int fibonacciSeries(int n){
     if(n==0)
