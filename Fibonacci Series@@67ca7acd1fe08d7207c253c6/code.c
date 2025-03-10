@@ -8,7 +8,7 @@ int main(){
         printf("Invalid input\n");
         return 0;
     }
-    for(int i=1;i<=n;i++)
+    for(int i=0;i<n;i++)
     printf("%d\n",fibonacciSeries(i));
     return 0;
 }
