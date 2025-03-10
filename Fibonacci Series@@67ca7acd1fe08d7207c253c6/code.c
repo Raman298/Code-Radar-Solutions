@@ -8,7 +8,8 @@ int main(){
         printf("Invalid input\n");
         return 0;
     }
-    printf("%d",fibonacciSeries(n));
+    for(int i=1;i<=n;i++)
+    printf("%d\n",fibonacciSeries(i));
     return 0;
 }
 int fibonacciSeries(int n){
