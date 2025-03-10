@@ -2,7 +2,8 @@
 int main(){
     int j,i=2;
     scanf("%d",&j);
-    for(int n=1;n<=j;n++){
+    int n;
+    for(n=1;n<=j;n++){
         scanf("%d",&n);
     }
     if(n<1){
