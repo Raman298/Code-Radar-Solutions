@@ -1,6 +1,6 @@
 // Your code here...
 void bubbleSort(int *arr,int n){
-     int temp,p,c;
+    int temp,p,c;
     for(p=0;p<n-1;p++){
        
         for(c=0;c<n-p-1;c++){
