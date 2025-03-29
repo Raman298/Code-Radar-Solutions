@@ -5,9 +5,9 @@ void printPrimesInRange(int a,int b){
         continue;
         for(int j=2;j<=a/2;j++){
             if(i%j==0){  
-                continue;
+                break;
             }
-          printf("%d ",i);  
+            
         }
         
     }
