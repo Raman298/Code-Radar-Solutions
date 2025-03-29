@@ -4,7 +4,7 @@ void printPrimesInRange(int a,int b){
     for(i=a;i<=b;i++){
         if(i<2)
         break;
-        for(int j=2;j<=a/2;j++){
+        for(int j=3;j<=i/2;j++){
             if(i%j==0){  
                 break;
             }
