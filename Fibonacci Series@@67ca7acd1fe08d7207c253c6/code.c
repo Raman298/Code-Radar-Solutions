@@ -1,9 +1,11 @@
 // Your code here...
 #include<stdio.h>
 int fibonacciSeries(int n){
-    if(n==0)
+    for(int i=0;i<n;i++){
+    if(i==0)
     return 0;
-    if(n==1)
+    if(i==1)
     return 1;
-    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+    return fibonacciSeries(i-1)+fibonacciSeries(i-2);
+}
 }
