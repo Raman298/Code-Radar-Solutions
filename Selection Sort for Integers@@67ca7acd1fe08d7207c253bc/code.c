@@ -1,5 +1,5 @@
 // Your code here...
-int selectionSort(int n;int arr[]){
+int selectionSort(;nt arr[],int n){
     for(int i=0;i<n;i++){
         for(int j=1;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
