@@ -2,6 +2,7 @@
 #include<stdbool.h>
 void printPrimesInRange(int a,int b){
     int i;int count=0;
+    bool foundbool=false;
     for(i=a;i<=b;i++){
         if(i<2)
         continue;
@@ -14,13 +15,11 @@ void printPrimesInRange(int a,int b){
             }
          count++;
         }
-        if(isprime)
+        if(isprime){
         printf("%d ",i);
-        else{
-            printf("No prime number");
-        } 
-        
+        foundbool=true;
+        }      
 }
-if(count<1)
+if(!foundbool)
 printf("No prime numbers");
 }
