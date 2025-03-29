@@ -6,17 +6,18 @@ void printPrimesInRange(int a,int b){
         if(i<2)
         continue;
         bool isprime=true;
+        int count=0;
         for(int j=3;j<=i/2;j++){
             if(i%j==0){  
                 isprime=false;
                 break;
             }
-         
+         count++;
         }
         if(isprime)
         printf("%d ",i); 
-        else{
-            printf("No prime numbers");
-    }
+        
 }
+if(count<1)
+printf("No prime numbers");
 }
