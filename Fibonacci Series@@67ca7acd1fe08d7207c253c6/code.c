@@ -1,13 +1,13 @@
-// Your code here...
-#include<stdio.h>
 int fibonacciSeries(int n){
-    for(int i=0;i<n;i++){
-        if(i==0){
-            return 0;
-        }
-        else if(i==1){
-            return 1;
-        }
-        return fibonacciSeries(i-1)+fibonacciSeries(i-2);
+    int a=0,b=1,c;
+    if(n>=1){
+        printf("%d ",a);
+    }
+    if (n >= 2) printf(", %d", b);
+    for(int i=3;i<n;i++){
+        c=a+b;
+        printf("%d ",c);
+        a=b;
+        b=c;
     }
 }
