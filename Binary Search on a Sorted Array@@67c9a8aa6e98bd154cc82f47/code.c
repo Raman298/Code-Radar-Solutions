@@ -1,5 +1,5 @@
 // Your code here...
-int binarySearch(int arr[],int n,int targert){
+int binarySearch(int arr[],int n,int target){
     int low=0;
     int high=n-1;
     while(low<high){
