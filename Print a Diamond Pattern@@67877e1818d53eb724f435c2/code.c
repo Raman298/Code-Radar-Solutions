@@ -16,8 +16,8 @@ int main(){
             }
         printf("\n");
         }
-        for(i=n-1;i>=1;i--){
-            for(int z=1;z<=n-1;z++){
+        for(int i=n-1;i>=1;i--){
+            for(int z=1;z<=n-i;z++){
             printf(" ");
         }
         for(int j=1;j<=2*i-1;j++){
