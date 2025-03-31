@@ -2,9 +2,9 @@
 #include<stdio.h>
 int main(){
     int a[100];
-    int shifts,N;
+    int shifts,N;scanf("%d",&N);
     scanf("%d",&shifts);
-    scanf("%d",&N);
+    
     for(int i=0;i<=N-1;i++){
         scanf("%d",&a[i]);
     }
