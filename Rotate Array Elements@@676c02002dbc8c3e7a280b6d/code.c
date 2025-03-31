@@ -1,4 +1,5 @@
 // Your code here...
+#include<stdio.h>
 int main(){
     int a[100];
     int shifts,N;
@@ -16,6 +17,6 @@ int main(){
     a[N-1]=temp;
 }
 for(int i=0;i<=N-1;i++){
-    printf("%d ",a[i]);
+    printf("%d\n",a[i]);
 }
 }
