@@ -12,12 +12,6 @@ void bubbleSort(int *arr,int n){
         }
     }
 }
-void printArray(int *arr,int n){
-    int i;
-    for(i=0;i<n;i++){
-        printf("%d ",arr[i]);
-    }
-}
 int main(){
     int n;
     scanf("%d",n);
@@ -25,8 +19,11 @@ int main(){
     for(int i=0;i<n;i++){
         printf("%d",arr[i]);
     }
-    int original=arr[n];
-    bubbleSort(*arr,n);
+    int original[n];
+    for(int i=0;i<n;i++){
+        int original[i]=arr[i];
+    }
+    bubbleSort(arr,n);
     if(original==arr[n]){
         printf("Sorted");
     }
