@@ -15,9 +15,7 @@ void frequency_ele(int a[],int N){
             }
         }
         int max=0;
-        if(){
-
-        }
+        
     }
 }
 int main(){
