@@ -9,7 +9,7 @@ int main(){
     int temp,i;
     for(int k=0;k<shifts;k++){
         temp=a[N-1];
-    for(i=n-1;i>0;i++){
+    for(i=N-1;i>0;i--){
         a[N-1]=a[i];
     }
     a[i]=temp;
