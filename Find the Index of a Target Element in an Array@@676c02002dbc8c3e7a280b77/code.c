@@ -5,10 +5,14 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    scanf("%d",&ele);
+    scanf("%d",&ele);int count=0;
     for(i=0;i<n;i++){
         if(arr[i]==ele){
         printf("%d ",i);
+        count++;
         break;}
+    }
+    if(!count){
+        printf("-1");
     }
 }
