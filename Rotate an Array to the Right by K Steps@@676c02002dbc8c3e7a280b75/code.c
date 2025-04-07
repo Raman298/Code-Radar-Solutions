@@ -8,7 +8,7 @@ int main(){
     }scanf("%d",&shifts);
     int temp,i;
     for(int k=0;k<shifts;k++){
-        temp=a[i];
+        temp=a[N-1];
     for(i=N-1;i>0;i--){
         a[i]=a[i-1];
     }
