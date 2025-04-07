@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&a[i]);
     }scanf("%d",&shifts);
     int temp;
-    for(int k=0;k<shifts;k++){
+    for(int k=0;k<shifts-1;k++){
         temp=a[0];
     for(int i=1;i<N;i++){
         a[i-1]=a[i];
