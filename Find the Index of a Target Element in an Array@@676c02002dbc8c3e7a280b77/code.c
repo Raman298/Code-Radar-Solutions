@@ -7,8 +7,8 @@ int main(){
     }
     scanf("%d",&ele);
     for(i=0;i<n;i++){
-        if(arr[i]==ele)
+        if(arr[i]==ele){
         printf("%d ",i);
-        break;
+        break;}
     }
 }
