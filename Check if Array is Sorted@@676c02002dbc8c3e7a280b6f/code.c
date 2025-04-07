@@ -25,12 +25,18 @@ int main(){
         original[i]=arr[i];
     }
     bubbleSort(arr,n);
+    int issorted=1;
     for(int i=0;i<n;i++){
-    if(original[i]==arr[i]){
+    if(original[i]!=arr[i]){
+        issorted=0;
+        break;
+    }  
+    }
+    if(issorted){
         printf("Sorted");
     }
     else{
         printf("Not Sorted");
-    }}
+    }
     return 0;
 }
