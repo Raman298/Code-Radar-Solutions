@@ -17,5 +17,5 @@ int main(){
       }
       }
 printf("%d",max2);
-return 0;
+return -1;
 }
