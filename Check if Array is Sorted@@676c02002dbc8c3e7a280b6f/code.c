@@ -14,7 +14,7 @@ void bubbleSort(int *arr,int n){
 }
 int main(){
     int n;
-    scanf("%d",n);
+    scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         printf("%d",arr[i]);
@@ -24,11 +24,12 @@ int main(){
         int original[i]=arr[i];
     }
     bubbleSort(arr,n);
-    if(original==arr[n]){
+    for(int i=0;i<n;i++){
+    if(original[i]==arr[i]){
         printf("Sorted");
     }
     else{
         printf("Not Sorted");
-    }
+    }}
     return 0;
 }
