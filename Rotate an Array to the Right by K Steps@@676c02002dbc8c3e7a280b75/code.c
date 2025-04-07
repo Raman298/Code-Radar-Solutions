@@ -8,11 +8,11 @@ int main(){
     }scanf("%d",&shifts);
     int temp,i;
     for(int k=0;k<shifts;k++){
-        temp=a[N-1];
+        temp=a[i];
     for(i=N-1;i>0;i--){
-        a[N-1]=a[i];
+        a[i]=a[i-1];
     }
-    a[i]=temp;
+    a[i-1]=temp;
 }
 for(int i=0;i<=N-1;i++){
     printf("%d ",a[i]);
