@@ -6,11 +6,11 @@ int main(){
     for(int i=0;i<=N-1;i++){
         scanf("%d",&a[i]);
     }scanf("%d",&shifts);
-    int temp;
+    int temp,i;
     for(int k=0;k<shifts;k++){
-        temp=a[n-1];
-    for(int i=1;i<N;i++){
-        a[n-1]=a[i];
+        temp=a[N-1];
+    for(i=1;i<N;i++){
+        a[N-1]=a[i];
     }
     a[i]=temp;
 }
