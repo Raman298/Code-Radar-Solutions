@@ -4,9 +4,12 @@ int sumarray(int arr[],int n){
     
     for(int i=0;i<n;i++){
         int b=abs(arr[i]);
-        int max=1;
-        int c=arr[i]*arr[i+1]
+        int max=0;
+        if(max<arr[i]*arr[i+1]){
+        max=arr[i]*arr[i+1];
+        }
     }
+    return max;
 }
 int main(){
     int n;
@@ -15,8 +18,5 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    sumarray(arr,n);
-    for(int i=0;i<n;i++){
-        printf("%d ",arr[i]);
-    }
+    printf("%d",sumarray(arr,n));
 }
