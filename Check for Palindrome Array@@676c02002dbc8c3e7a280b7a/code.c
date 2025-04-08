@@ -6,6 +6,7 @@ int ispalindrome(int arr[],int n){
     while(i<l){
         if(arr[i]!=arr[l])
         return false;
+        break;
         i++;l--;
     }
     return true;
