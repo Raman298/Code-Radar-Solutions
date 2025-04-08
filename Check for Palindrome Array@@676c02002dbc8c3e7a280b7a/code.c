@@ -1,18 +1,15 @@
-// Your code here...
 #include<stdio.h>
 #include<stdbool.h>
-
 int ispalindrome(int arr[],int n){
     int i=0;
     int l=n-1;
     while(i<l){
-        if(arr[i]==arr[l])
+        if(arr[i]!=arr[l])
         return false;
         i++;l--;
     }
     return true;
 }
-
 int main(){
     int n;
     scanf("%d",n);
@@ -26,5 +23,5 @@ int main(){
     else{
         printf("NO");
     }
-
+    return 0;
 }
