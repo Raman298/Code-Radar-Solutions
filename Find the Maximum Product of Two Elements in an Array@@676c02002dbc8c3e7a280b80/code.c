@@ -5,7 +5,7 @@ int sumarray(int arr[],int n){
     for(int i=0;i<n;i++){
         int b=abs(arr[i]);
         int max=1;
-        int b=arr[i]*arr[i+1]
+        int c=arr[i]*arr[i+1]
     }
 }
 int main(){
