@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 
-int ispalindrome(int arr[n],int n){
+int ispalindrome(int arr[],int n){
     int i=0;
     int l=n-1;
     while(i<l){
