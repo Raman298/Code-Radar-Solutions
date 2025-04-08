@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include<stlib.h>
 int sumarray(int arr[],int n){
     
     for(int i=0;i<n;i++){
         int sum=0,a;
-        while(arr[i]>0){
+        while(abs(arr[i])>0){
         a=arr[i]%10;
         sum+=a;
         arr[i]=arr[i]/10;
