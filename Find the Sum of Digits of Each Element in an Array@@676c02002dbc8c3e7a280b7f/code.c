@@ -1,13 +1,14 @@
 #include<stdio.h>
-#include<stlib.h>
+#include<stdlib.h>
 int sumarray(int arr[],int n){
     
     for(int i=0;i<n;i++){
         int sum=0,a;
-        while(abs(arr[i])>0){
-        a=arr[i]%10;
+        int b=abs(arr[i]);
+        while(b>0){
+        a=b%10;
         sum+=a;
-        arr[i]=arr[i]/10;
+        b=b/10;
         }
         arr[i]=sum;
     }
