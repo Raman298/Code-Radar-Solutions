@@ -5,7 +5,7 @@ int repeatarray(int arr[],int n){
             if(arr[i]==arr[j]){
             return arr[i];
             break;}
-            
+          return -1;  
         }//printf("%d",arr[i]);
     }
     
