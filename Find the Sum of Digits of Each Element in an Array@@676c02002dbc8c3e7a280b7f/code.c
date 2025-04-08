@@ -1,7 +1,8 @@
 #include<stdio.h>
 int sumarray(int arr[],int n){
-    int a,sum;
+    
     for(int i=0;i<n;i++){
+        int sum=0,a;
         while(arr[i]>0){
         a=arr[i]%10;
         sum+=a;
@@ -19,6 +20,6 @@ int main(){
     }
     sumarray(arr,n);
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
