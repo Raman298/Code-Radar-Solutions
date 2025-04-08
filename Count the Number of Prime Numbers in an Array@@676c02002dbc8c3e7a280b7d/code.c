@@ -20,4 +20,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int result =countprime(arr,n);
+    printf("%d",result);
 }
