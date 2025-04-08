@@ -1,14 +1,14 @@
 #include<stdio.h>
 int repeatarray(int arr[],int n){
     for(int i=0;i<n;i++){
-        for(int j=1;j<n;j++){
+        for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
             return arr[i];
             break;}
-          return -1;  
+          
         }//printf("%d",arr[i]);
     }
-    
+  return -1;    
 }
 int main(){
     int n;
