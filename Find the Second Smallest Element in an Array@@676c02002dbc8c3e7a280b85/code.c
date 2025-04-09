@@ -2,20 +2,16 @@
 
 int smallelement(int arr[], int n) {
     if (n < 2) {
-        return -1; // No second smallest if array has < 2 elements
+        return -1;
     }
 
     int min = arr[0];
-    int min2 = -1; // Initialize to an invalid value
-
-    // Find the smallest element
+    int min2 = -1;
     for (int i = 1; i < n; i++) {
         if (arr[i] < min) {
             min = arr[i];
         }
     }
-
-    // Find the second smallest (smallest > min)
     for (int i = 0; i < n; i++) {
         if (arr[i] > min) {
             if (min2 == -1 || arr[i] < min2) {
@@ -23,10 +19,8 @@ int smallelement(int arr[], int n) {
             }
         }
     }
-
-    return min2; // Returns -1 if all elements are the same
+    return min2; 
 }
-
 int main() {
     int n;
     scanf("%d", &n);
