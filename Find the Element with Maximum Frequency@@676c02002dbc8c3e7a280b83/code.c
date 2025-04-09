@@ -1,16 +1,16 @@
 #include<stdio.h>
 
-void frequency_ele(int a[],int N){
+int frequency_ele(int a[],int N){
     //int count=0;
     int visited[N];
     for(int i=0;i<N;i++){
         visited[i]=0;
-    }
+    }int maxfrexquency=0;
     for(int i=0;i<N;i++){
         if (visited[i]==1)
         continue;
         int count=1;
-        int maxfrexquency=0;
+        
         for(int j=i+1;j<N;j++){
             if(a[i]==a[j]){
                 count++;
@@ -21,8 +21,8 @@ void frequency_ele(int a[],int N){
         if(maxfrexquency<count){
             maxfrexquency=count;
         }
-        return maxfrexquency;
-    }
+        
+    }return maxfrexquency;
 }
 int main(){
     int a[100],N,i,ele;
