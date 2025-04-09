@@ -1,4 +1,4 @@
-#icnlude<stdio.h>
+#include<stdio.h>
 
 void frequency_ele(int a[],int N){
     //int count=0;
@@ -18,7 +18,10 @@ void frequency_ele(int a[],int N){
             }
         
         }
-        printf("%d %d\n",a[i],count);
+        if(maxfrexquency<count){
+            maxfrexquency=count;
+        }
+        return maxfrexquency;
     }
 }
 int main(){
@@ -27,6 +30,6 @@ int main(){
     for(i=0;i<=N-1;i++){
         scanf("%d",&a[i]);
     }
-    frequency_ele(a,N);
+    printf("%d",frequency_ele(a,N));
 }
 
