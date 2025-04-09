@@ -1,10 +1,10 @@
 #include<stdio.h>
 int countpalindrome(int arr[],int n){
     int count=0;
-    for(int i=0;i<n;i++){int b=arr[i];int j=1;
+    for(int i=0;i<n;i++){int b=arr[i];int j=0;
         while(b>0){
         int r=b%10;
-        j=r;
+        j=j*10+r;
         b=b/10;
         }
         if(j==arr[i]){
