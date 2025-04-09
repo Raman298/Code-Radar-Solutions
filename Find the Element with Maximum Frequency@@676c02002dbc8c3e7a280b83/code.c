@@ -1,3 +1,5 @@
+#icnlude<stdio.h>
+
 void frequency_ele(int a[],int N){
     //int count=0;
     int visited[N];
