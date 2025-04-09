@@ -1,5 +1,5 @@
 #include<stdio.h>
-int runningarray(int arr,int n){
+int runningarray(int arr[],int n){
     for(int i=0;i<n;i++){
         int sum=0;
         sum+=arr[i];
