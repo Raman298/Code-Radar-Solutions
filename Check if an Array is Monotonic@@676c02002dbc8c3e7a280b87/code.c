@@ -1,11 +1,20 @@
 #include<stdio.h>
-int ismonotonic(int arr[],int n){
-   for(int i=0;i<n-1;i++){
-        if(arr[i]>=arr[i+1]||arr[i]<=arr[i+1]){
-            return 1;
+#include <stdbool.h>
+
+bool ismonotonic(int arr[], int n) {
+    bool increasing = true;
+    bool decreasing = true;
+    
+    for (int i = 0; i < n - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            increasing = false;
         }
-        return 0;
-    }   
+        if (arr[i] < arr[i + 1]) {
+            decreasing = false;
+        }
+    }
+    
+    return increasing || decreasing;
 }
 int main(){
     int n;
