@@ -7,14 +7,14 @@ int smallelement(int arr[],int n){
                 arr[i]=arr[j];
             }arr[j]=temp;
         }
-    }return arr[1];
+    }return arr[2];
 }
 int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
-    smallelement(arr,n);
+    printf("%d",smallelement(arr,n));
 }
