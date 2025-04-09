@@ -6,6 +6,7 @@ int frequency_ele(int a[],int N){
     for(int i=0;i<N;i++){
         visited[i]=0;
     }int maxfrexquency=0;
+    int result;
     for(int i=0;i<N;i++){
         if (visited[i]==1)
         continue;
@@ -20,9 +21,11 @@ int frequency_ele(int a[],int N){
         }
         if(maxfrexquency<count){
             maxfrexquency=count;
+            result=arr[i];
+
         }
         
-    }return maxfrexquency;
+    }return result;
 }
 int main(){
     int a[100],N,i,ele;
