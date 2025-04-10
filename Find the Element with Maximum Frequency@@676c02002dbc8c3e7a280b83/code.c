@@ -21,7 +21,7 @@ int frequency_ele(int a[],int N){
         }
         if(maxfrexquency<count){
             maxfrexquency=count;
-            result=arr[i];
+            result=a[i];
 
         }
         
