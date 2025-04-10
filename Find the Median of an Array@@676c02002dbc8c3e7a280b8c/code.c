@@ -12,7 +12,7 @@ int sorted(int arr[],int n){
 int calcumedian(int arr[],int n){
     if(n%2!=0){
         return arr[n-1/2];
-    }return (arr[n-1/2]+arr[n-1/2+1])/2;
+    }return (arr[(n-1)/2]+arr[((n-1)/2)+1]/2);
 }
 int main(){
     int n;
