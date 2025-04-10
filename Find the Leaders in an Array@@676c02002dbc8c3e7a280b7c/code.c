@@ -1,9 +1,9 @@
 #include<stdio.h>
-int duplielement(int arr[],int n){
+void leaderelements(int arr[],int n){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]>arr[j]){
-                return arr[i];
+                printf("%d ",arr[i]);
             }
         }
     }
@@ -15,5 +15,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    printf("%d",duplielement(arr,n));
+    leaderelements(arr,n);
+ 
 }
