@@ -2,10 +2,10 @@
 
 void leaderelements(int arr[], int n) {
     for (int i = 0; i < n; i++) {
-        int isLeader = 1; // Assume arr[i] is a leader initially
+        int isLeader = 1; 
         for (int j = i + 1; j < n; j++) {
             if (arr[i] < arr[j]) {
-                isLeader = 0; // arr[i] is not a leader
+                isLeader = 0; 
                 break;
             }
         }
