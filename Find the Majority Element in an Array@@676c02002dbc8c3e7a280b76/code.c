@@ -13,10 +13,10 @@ void frequency_ele(int a[],int N){
                 count++;
                 visited[j]=1;
             }
-            if(count>N/2){
+            
+        }if(count>N/2){
                 printf("%d",count);
             }
-        }
         int max=0;
         
     }
