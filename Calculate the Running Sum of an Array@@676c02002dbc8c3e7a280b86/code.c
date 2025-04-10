@@ -3,7 +3,7 @@ int runningarray(int arr[],int n){
     for(int i=0;i<n;i++){
         int sum=0;
         sum+=arr[i];
-        printf("%d ",sum);
+        return sum;
 
     }
 }
@@ -14,5 +14,5 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    runningarray(arr,n);
+    printf("%d",runningarray(arr,n));
 }
