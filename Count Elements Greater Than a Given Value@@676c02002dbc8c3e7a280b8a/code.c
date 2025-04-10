@@ -10,7 +10,7 @@ int main(){
     int n,element;
     scanf("%d %d",&n,&element);
     int arr[n];
-    for(int i=0;i<n,n;i++){
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     printf("%d",countgreater(arr,n,element));
