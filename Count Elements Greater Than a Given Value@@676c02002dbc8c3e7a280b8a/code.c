@@ -1,5 +1,5 @@
 #include<stdio.h>
-int countgreater(int arr,int n,int element){int count=0;
+int countgreater(int arr[],int n,int element){int count=0;
     for(int i=0;i<n;i++){
         if(arr[i]>element){
             count++;
