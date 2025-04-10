@@ -13,7 +13,7 @@ int calcumedian(int arr[],int n){
     int s=n-1;
     if(n%2!=0){
         return arr[s/2];
-    }return (arr[s/2]+arr[(s+1)/2]);
+    }return (arr[s/2]+arr[(s/2)-1]);
 }
 int main(){
     int n;
