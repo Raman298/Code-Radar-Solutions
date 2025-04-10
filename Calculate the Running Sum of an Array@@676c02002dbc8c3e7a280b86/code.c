@@ -1,9 +1,9 @@
 #include<stdio.h>
-void runningarray(int arr[],int n){
+void runningarray(int arr[],int n){int sum=0;
     for(int i=0;i<n;i++){
-        int sum=0;
-        sum+=arr[i];
-        printf("%d",sum);
+        
+        sum=sum+arr[i];
+        printf("%d ",sum);
 
     }
 }
