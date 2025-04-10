@@ -1,5 +1,5 @@
 #include<stdio.h>
-void frequency_ele(int a[],int N){
+int frequency_ele(int a[],int N){
     int visited[N];
     for(int i=0;i<N;i++){
         visited[i]=0;
@@ -15,8 +15,8 @@ void frequency_ele(int a[],int N){
             }
             
         }if(count>N/2){
-                printf("%d",count);
-            }
+                return count;
+            }r3eturn -1;
         int max=0;
         
     }
