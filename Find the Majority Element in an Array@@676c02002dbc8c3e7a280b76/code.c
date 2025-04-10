@@ -16,7 +16,7 @@ int frequency_ele(int a[],int N){
             
         }if(count>N/2){
                 return count;
-            }r3eturn -1;
+            }return -1;
         int max=0;
         
     }
@@ -27,5 +27,5 @@ int main(){
     for(i=0;i<=N-1;i++){
         scanf("%d",&a[i]);
     }
-    frequency_ele(a,N);
+    printf("%d",frequency_ele(a,N));
 }
