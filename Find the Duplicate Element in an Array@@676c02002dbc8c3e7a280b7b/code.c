@@ -9,8 +9,9 @@ int duplielement(int arr[],int n){
     }
 }
 int main(){
-    int n,i,ele;int arr[n];
+    int n;
     scanf("%d",&n);
+    int arr[n];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
