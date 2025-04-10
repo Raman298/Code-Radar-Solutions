@@ -22,7 +22,7 @@ int main(){
       for(int i=0; i<n; i++){
             scanf("%d",&arr[i]);
       }
-      pritf("%d",max2(arr,n));
+      printf("%d",max2(arr,n));
 }
 
 
