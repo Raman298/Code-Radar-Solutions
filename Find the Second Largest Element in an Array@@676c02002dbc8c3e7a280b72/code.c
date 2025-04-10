@@ -11,7 +11,7 @@ int max2(int arr[],int n){
                 max2=arr[i];
       }
       }
-      if(max<max2){
+      if(max2<max){
 return max2;}
 return -1;
 }
