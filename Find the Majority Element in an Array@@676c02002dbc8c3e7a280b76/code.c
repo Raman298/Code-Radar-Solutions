@@ -15,7 +15,7 @@ int frequency_ele(int a[],int N){
             }
             
         }if(count>N/2){
-                return count;
+                return arr[i];
             }return -1;
         int max=0;
         
